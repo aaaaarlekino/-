@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { font-family: "Montserrat",sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+body {
+    background-color: #b3b1b1;
+    letter-spacing: 0.5px;
+    max-width: 100vw;
+
+}
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 150px;
+}
+
+button, svg {
+    cursor: pointer;
+}
+
+.sub-title {
+    font-size: 4.026vw;
+    line-height: 65px;
+    font-weight: 400;
+}
+
+.header__nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 12%;
+    object-fit: cover;
+}
+
+.header__nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__elem:not(:last-child) {
+    margin-right: 55px;
+}
+
+.nav__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.coffeone {
+    margin-bottom: 150px;
+}
+
+.coffeone__container {
+   display: flex;
+   align-items: center;
+   max-width: 75vw;
+}
+
+.coffeone__img {
+   max-width: 30vw;
+}
+
+.coffeone__content {
+    max-width: 646px;   
+}
+
+.coffeone__title {
+    font-family: "Montserrat",sans-serif;
+    font-size: 3.294vw;
+    line-height: 5.124vw;
+    margin-bottom: 2.196vw;
+}
+
+.coffeone__text {
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 55px;
+}
+
+.coffeone__btns {
+    display: flex;
+    align-items: center;
+}
+
+.coffeone__btn {
+    margin-right: 30px;
+    padding: 10px;
+    
+}
+
+.black__btn {
+    background: none;
+    box-shadow: rgba(253, 253, 253, 0.25);
+    border: 1px solid #000000;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.popular {
+    margin-bottom: 100px;
+    margin-left: 5vw;
+
+}
+
+.popular__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.popular__btn {
+    padding: 10px 17px;
+    margin-bottom: 24px;
+    margin-right: 4vw;
+}
+
+.popular__title {
+    margin-bottom: 50px;
+    color: #232020;
+}
+.popular__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 95px;
+}
+
+.popular__item {
+    position: relative;
+    padding: 25px 25px 25px 110px;
+    border: 3px solid #414141;
+}
+
+.popular__text {
+    margin-bottom: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5vw;
+    line-height: 120%;
+    color: #232020;
+    margin: 0;
+}
+
+.popular__price {
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4f3d2b;
+}
+
+.popular__img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    border-radius: 500px;
+}
+
+.coffee-cards {
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+.coffee-cards__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+
+.coffee-cards__btn {
+    padding: 10px 25px;
+}
+
+.coffee-cards__item {
+    padding: 25px;
+    background-color: #c2c1c1;
+    margin-right: 20px;
+}
+
+.coffee-cards__item:last-child {
+    margin-right: 0;
+}
+
+.coffee-cards__img  {
+    margin-bottom: 30px;
+    width: 100%;
+    object-fit: cover;
+}
+.coffee-cards__rating {
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1A1A;
+
+}
+
+
+.coffee-cards__title {
+    margin-bottom: 13px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1C1A1A;
+
+}
+.coffee-cards__price {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1A1A;
+}
+
+.card__price {
+    margin-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4f3d2b;
+}
+
+.color__btn {
+    background: none;
+    box-shadow: rgba(253, 253, 253, 0.25);
+    border: 1px solid #928596;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.cards {
+    margin-bottom: 100px;
+}
+
+.coffee {
+    margin: 0 auto;
+    padding: 250px 0;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 140px;
+}
+
+.coffee__container {
+    padding: 25px 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee__title {
+    margin-bottom: 10px;
+}
+
+.coffee__text {
+    max-width: 671px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.coffee__btn {
+    padding: 12px 20px;
+}
+
+.arrow__left {
+    position: absolute;
+    top: 37%;
+    left: 0;
+}
+.arrow__right {
+    position: absolute;
+    top: 37%;
+    right: 0;
+    transform: rotate(180deg);
+}
